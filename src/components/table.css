@@ -1,0 +1,45 @@
+.content_area {
+    display: flex;
+    flex-direction: row;    
+    margin-top: 10px;
+}
+
+.table_area {
+    width: 50%;
+}
+
+.form_area {
+    width: 50%;
+}
+
+.legend {
+    border: 1px solid rgb(24, 105, 105);
+    font-weight: bold;
+}
+
+.input {
+    border: 1px solid rgb(24, 105, 105);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    align-items: center;
+    width: 100%;
+}
+tr:first-child {
+    background-color: rgb(24, 105, 105);
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
